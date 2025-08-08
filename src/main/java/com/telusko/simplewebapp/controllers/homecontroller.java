@@ -1,4 +1,4 @@
-package com.telusko.simplewebapp;
+package com.telusko.simplewebapp.controllers;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
