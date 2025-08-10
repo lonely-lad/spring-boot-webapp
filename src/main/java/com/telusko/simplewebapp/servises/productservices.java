@@ -17,4 +17,11 @@ public class productservices {
         // Implementation to retrieve all products
         return products; // Placeholder return
     }
+    public product getProductById(int prodid) {
+        // Implementation to retrieve a product by its ID
+        return products.stream()
+                .filter(p -> p.getProdid() == prodid)
+                .findFirst()
+                .orElse(null); // Return null if not found
+    }
 }
