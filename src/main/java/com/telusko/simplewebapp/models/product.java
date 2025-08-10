@@ -1,12 +1,15 @@
 package com.telusko.simplewebapp.models;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
+@AllArgsConstructor
 public class product {
     private int prodid;
-    private int price;
     private String prodname;
+    private int price;
+    
 
     
 }
