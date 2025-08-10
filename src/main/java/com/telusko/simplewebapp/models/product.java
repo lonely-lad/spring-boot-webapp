@@ -1,11 +1,16 @@
 package com.telusko.simplewebapp.models;
 
-import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Component;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.Data;
 
 @Data
-@AllArgsConstructor
+@Component
+@Entity
 public class product {
+    @Id
     private int prodid;
     private String prodname;
     private int price;
