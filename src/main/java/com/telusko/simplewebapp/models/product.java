@@ -15,6 +15,4 @@ public class product {
     private String prodname;
     private int price;
     
-
-    
 }
